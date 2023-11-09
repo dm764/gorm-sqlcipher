@@ -71,7 +71,7 @@ func TestEncrypt(t *testing.T) {
 	*/
 
 	// 1、参数的方式(修改版本)
-	// github.com/zhaobingss/go-sqlcipher/v4 v4.4.3
+	// github.com/dm764/go-sqlcipher/v4 v4.4.3
 	// 下面这种加密方式，只适合v4.4.3版本
 	dbname := "encrypt.db?" +
 		"_pragma_key=123456" +

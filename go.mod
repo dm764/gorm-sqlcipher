@@ -1,9 +1,8 @@
-module github.com/zhaobingss/gorm-sqlcipher
+module github.com/dm764/gorm-sqlcipher
 
 go 1.14
 
 require (
-	github.com/mutecomm/go-sqlcipher/v4 v4.4.2 // indirect
-	github.com/zhaobingss/go-sqlcipher/v4 v4.4.3
-	gorm.io/gorm v1.25.2
+	github.com/dm764/go-sqlcipher/v4 v4.5.4
+	gorm.io/gorm v1.25.5
 )
